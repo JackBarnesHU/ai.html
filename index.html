@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pirate Adventures</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5dc; /* Light beige background */
+        }
+        header, footer {
+            background-color: #8b4513; /* SaddleBrown */
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        .container {
+            display: flex;
+            padding: 20px;
+        }
+        .column {
+            flex: 1;
+            padding: 10px;
+        }
+        .column:first-child {
+            border-right: 1px solid #d2691e; /* Chocolate */
+        }
+        h1, h2 {
+            color: #d2691e; /* Chocolate */
+        }
+        p {
+            color: #8b4513; /* SaddleBrown */
+        }
+        .wrap-image {
+            float: left; /* or right depending on desired text flow */
+            margin: 0 20px 20px 0; /* Adjust spacing around image */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pirate Adventures</h1>
+    </header>
+    <div class="container">
+        <div class="column">
+            <div class="wrap-image">
+                <img src="Pirate.jfif" alt="Pirate Captain" width="200">
+            </div>
+            <h2>Life on the High Seas</h2>
+            <p>Pirates spent their days navigating treacherous waters, seeking out treasure, and engaging in fierce battles. Life on a pirate ship was tough, with strict rules and harsh punishments for those who disobeyed.</p>
+        </div>
+        <div class="column">
+            <h2>Famous Pirates</h2>
+            <p>Some of the most notorious pirates in history include Blackbeard, Captain Kidd, and Anne Bonny. These pirates became legends due to their daring exploits and fearsome reputations.</p>
+        </div>
+    </div>
+    <footer>
+        <p style="color: white;">© 2024 Pirate Adventures. All rights reserved.</p>
+    </footer>
+</body>
+</html>
